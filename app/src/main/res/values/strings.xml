@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Curso_Completo_De_Corrutinas_y_Flow _Con_Android_y_Kotlin</string>
+    <string name="click_here">Click Here</string>
+    <string name="download_user_data">Download User Data</string>
 </resources>
