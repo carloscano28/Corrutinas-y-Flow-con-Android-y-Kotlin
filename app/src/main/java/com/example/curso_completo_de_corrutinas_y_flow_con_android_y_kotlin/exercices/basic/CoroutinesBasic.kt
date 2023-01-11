@@ -1,7 +1,9 @@
-package com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.exercices
+package com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.exercices.basic
 
+import com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.utils.endMsj
 import com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.utils.newTopic
 import com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.utils.someTime
+import com.example.curso_completo_de_corrutinas_y_flow_con_android_y_kotlin.utils.startMsj
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -31,12 +33,4 @@ fun globalScopeExample() {
         println("********************************************")
         endMsj()
     }
-}
-
-fun startMsj() {
-    println("Start corrutina -${Thread.currentThread().name}--")
-}
-
-fun endMsj() {
-    println("End corrutina -${Thread.currentThread().name}--")
 }

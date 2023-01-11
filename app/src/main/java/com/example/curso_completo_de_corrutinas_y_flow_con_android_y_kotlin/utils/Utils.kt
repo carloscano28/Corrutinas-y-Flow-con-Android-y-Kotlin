@@ -18,3 +18,7 @@ fun newTopic(topic : String, title: Boolean) {
 /*        ***********    UTILS   ***********      */
 
 fun someTime(): Long = Random.nextLong(500,2000)
+
+fun startMsj() = println("* Start corrutina -- ${Thread.currentThread().name}--")
+
+fun endMsj() = println("* End corrutina -- ${Thread.currentThread().name}--")
